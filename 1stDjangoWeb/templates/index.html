@@ -1,0 +1,29 @@
+{% extends 'base.html' %}
+{% load static %}
+{%  block title %}Home{% endblock %}
+
+{% block content %}
+  <h1>
+    <style>
+body {
+  background-image: url('https://i.imgur.com/SPgud5y.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+</style>
+        ~Jeffrey Stanford Scruggs Portfolio~
+        <br>My Journey</br>
+        <iframe
+                src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:6874717674534903809" height="709" width="504" frameborder="0" allowfullscreen="" title="Embedded post">
+        </iframe>
+    </h1>
+    <h2>
+    <iframe
+            width="560" height="315" src="https://www.youtube.com/embed/GIRyWWRn3us" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+    </iframe>
+    </h2>
+    <h3>
+    <img class="masthead-avatar mb-5" src="{% static 'theme/assets/img/avataaars.svg' %} " alt="..." />
+    </h3>
+{% endblock %}
