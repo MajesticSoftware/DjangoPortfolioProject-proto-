@@ -9,3 +9,9 @@ def about(request):
 
 def contact(request):
     return render(request, 'contact.html')
+
+def timelapse(request):
+    return render(request, 'timelapse.html')
+
+def ai_projects(request):
+    return render(request, 'ai_projects.html')

@@ -22,5 +22,7 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('', views.index, name="index"),
     path('about', views.about, name="about"),
-    path('contact', views.contact, name="contact")
+    path('contact', views.contact, name="contact"),
+    path('timelapse', views.timelapse, name='timelapse'),
+    path('ai_projects', views.ai_projects, name='ai_projects')
 ]
